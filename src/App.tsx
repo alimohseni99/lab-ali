@@ -1,6 +1,5 @@
+import { PageTitle } from "./page-title";
+
 export function App() {
-  return <PageTitle />;
-}
-function PageTitle() {
-  return <h1>Hello World</h1>;
+  return <PageTitle text="Hello World" />;
 }
